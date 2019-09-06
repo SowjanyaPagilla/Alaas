@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alaas</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/line-icons.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto logo_a"><img src="static/img/logo-normal.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html#intro">Dashboard</a></li>
+          <li><a href="index.html#services">Documentation</a></li>
+          <li><a href="index.html#why-us">Subscription</a></li>
+          <li class="drop-down">
+            <a href="#">Support</a>
+              <ul>
+                <li class="inner-child">
+                    <a href="#" title="">FAQ</a>
+                </li>
+                <li class="inner-child">
+                    <a href="#" title="">Create Tickets</a>
+                </li>
+                <li class="inner-child">
+                    <a href="#" title="">Manage Tickets</a>
+                </li>
+            </ul>
+          </li>
+          <li class="drop-down drop-down-right">
+              <a href="#" class="avatar_img_con pt-0"><img src="static/img/team-2.jpg" class="avatar_img" /></a>
+                <ul>
+                  <li>
+                      <a href="#" title="">Edit Profile</a>
+                  </li>
+                  <li >
+                      <a href="#" title="">Change Password</a>
+                  </li>
+                  <li >
+                      <a href="#" title="">Logout</a>
+                  </li>
+              </ul>
+            </li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+     
+
+  <main id="main" class="section-bg margin_top_80">
+          <section id="user_dashboard_card" class="h-100 pt-5">
+            <div class="container h-100">
+              <div class="row h-100">
+                  <div class="col-sm-12 col-md-4">
+                      <div class="card card_user">
+                          <div class="card-header">
+                            <form class="d-flex align-items-center justify-content-between">
+                                <div>
+                                  <label class="container_checkbox">
+                                      <input type="checkbox" class="input_hide">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div>
+                                  <div class="delete_icon_con">
+                                      <span class="delete_icon">
+                                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                        </span>
+                                  </div>
+                                  
+                                </div>
+                            </form>
+
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="d-block">
+                                <div class="user_api_icon">                                  
+                                    <svg id="Capa_1" enable-background="new 0 0 482.239 482.239" height="50" viewBox="0 0 482.239 482.239" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m241.119 206.674c37.995 0 68.891-30.897 68.891-68.891 0-37.995-30.897-68.891-68.891-68.891-37.995 0-68.891 30.897-68.891 68.891s30.897 68.891 68.891 68.891zm0-103.337c18.989 0 34.446 15.457 34.446 34.446s-15.457 34.446-34.446 34.446-34.446-15.457-34.446-34.446 15.458-34.446 34.446-34.446z"/><path d="m34.446 34.446h103.337v-34.446h-120.56c-9.52 0-17.223 7.703-17.223 17.223v120.56h34.446z"/><path d="m465.016 0h-120.56v34.446h103.337v103.337h34.446v-120.56c0-9.52-7.703-17.223-17.223-17.223z"/><path d="m447.793 447.793h-103.337v34.446h120.56c9.52 0 17.223-7.703 17.223-17.223v-103.337h-34.446z"/><path d="m34.446 344.456h-34.446v120.56c0 9.52 7.703 17.223 17.223 17.223h120.56v-34.446h-103.337z"/><path d="m135.966 262.026c-19.813 8.208-32.629 27.096-32.629 48.153v68.723h275.565v-68.723c0-21.058-12.816-39.946-32.629-48.153-66.84-27.752-143.468-27.752-210.307 0zm208.49 48.153v34.277h-206.674v-34.277c0-7.064 4.457-13.472 11.37-16.331 58.464-24.253 125.471-24.253 183.934 0 6.913 2.859 11.37 9.267 11.37 16.331z"/></svg>
+                                </div>
+                                <p class="user_api user_api_key">7000ATg4549647805</p>
+                                <p class="user_api user_api_hits"> <span class="mr-1"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                  width="30px" height="30px" viewBox="0 0 63.084 63.084" style="enable-background:new 0 0 63.084 63.084;"
+                                  xml:space="preserve">
+                               <g>
+                                 <g>
+                                   <path d="M55.876,0c-0.83,0-1.5,0.672-1.5,1.5v5.463L51.63,9.708C46.187,4.766,38.958,1.75,31.043,1.75
+                                     c-16.91,0-30.667,13.757-30.667,30.667s13.756,30.667,30.666,30.667S61.71,49.327,61.71,32.417c0-7.916-3.018-15.141-7.959-20.588
+                                     l2.746-2.745h4.711c0.83,0,1.5-0.672,1.5-1.5s-0.67-1.5-1.5-1.5h-3.832V1.5C57.376,0.672,56.704,0,55.876,0z M58.708,32.417
+                                     c0,15.256-12.41,27.667-27.667,27.667c-15.255,0-27.667-12.411-27.667-27.667S15.785,4.75,31.041,4.75
+                                     c7.089,0,13.563,2.683,18.464,7.083l-5.793,5.792c-3.412-2.927-7.834-4.708-12.671-4.708c-10.752,0-19.5,8.748-19.5,19.5
+                                     s8.748,19.5,19.5,19.5c10.753,0,19.501-8.748,19.501-19.5c0-4.837-1.781-9.259-4.709-12.671l5.793-5.792
+                                     C56.024,18.855,58.708,25.328,58.708,32.417z M35.208,32.417c0,2.298-1.869,4.167-4.167,4.167s-4.167-1.869-4.167-4.167
+                                     s1.869-4.167,4.167-4.167c0.601,0,1.169,0.133,1.685,0.362l-2.744,2.744c-0.586,0.586-0.586,1.537,0,2.123
+                                     c0.293,0.293,0.677,0.438,1.061,0.438c0.385,0,0.769-0.146,1.062-0.438l2.744-2.746C35.075,31.249,35.208,31.816,35.208,32.417z
+                                      M34.931,26.406c-1.121-0.729-2.455-1.156-3.89-1.156c-3.952,0-7.167,3.215-7.167,7.167s3.215,7.167,7.167,7.167
+                                     s7.167-3.215,7.167-7.167c0-1.434-0.428-2.768-1.156-3.89l6.662-6.661c2.389,2.863,3.828,6.541,3.828,10.55
+                                     c0,9.1-7.4,16.5-16.5,16.5c-9.098,0-16.5-7.4-16.5-16.5c0-9.098,7.402-16.5,16.5-16.5c4.01,0,7.688,1.441,10.551,3.828
+                                     L34.931,26.406z"/>
+                                 </g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               </svg></span>70</p>
+                            </a>
+                              
+                          </div>
+                          <div class="card-footer">
+                              <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                      Subscription
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                        Documentation
+                                    </a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4">
+                      <div class="card card_user">
+                          <div class="card-header">
+                            <form class="d-flex align-items-center justify-content-between">
+                                <div>
+                                  <label class="container_checkbox">
+                                      <input type="checkbox" class="input_hide">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div>
+                                  <div class="delete_icon_con">
+                                      <span class="delete_icon">
+                                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                        </span>
+                                  </div>
+                                  
+                                </div>
+                            </form>
+
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="d-block">
+                                <div class="user_api_icon">                                  
+                                    <svg id="Capa_1" enable-background="new 0 0 482.239 482.239" height="50" viewBox="0 0 482.239 482.239" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m241.119 206.674c37.995 0 68.891-30.897 68.891-68.891 0-37.995-30.897-68.891-68.891-68.891-37.995 0-68.891 30.897-68.891 68.891s30.897 68.891 68.891 68.891zm0-103.337c18.989 0 34.446 15.457 34.446 34.446s-15.457 34.446-34.446 34.446-34.446-15.457-34.446-34.446 15.458-34.446 34.446-34.446z"/><path d="m34.446 34.446h103.337v-34.446h-120.56c-9.52 0-17.223 7.703-17.223 17.223v120.56h34.446z"/><path d="m465.016 0h-120.56v34.446h103.337v103.337h34.446v-120.56c0-9.52-7.703-17.223-17.223-17.223z"/><path d="m447.793 447.793h-103.337v34.446h120.56c9.52 0 17.223-7.703 17.223-17.223v-103.337h-34.446z"/><path d="m34.446 344.456h-34.446v120.56c0 9.52 7.703 17.223 17.223 17.223h120.56v-34.446h-103.337z"/><path d="m135.966 262.026c-19.813 8.208-32.629 27.096-32.629 48.153v68.723h275.565v-68.723c0-21.058-12.816-39.946-32.629-48.153-66.84-27.752-143.468-27.752-210.307 0zm208.49 48.153v34.277h-206.674v-34.277c0-7.064 4.457-13.472 11.37-16.331 58.464-24.253 125.471-24.253 183.934 0 6.913 2.859 11.37 9.267 11.37 16.331z"/></svg>
+                                </div>
+                                <p class="user_api user_api_key">7000ATg4549647805</p>
+                                <p class="user_api user_api_hits"> <span class="mr-1"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                  width="30px" height="30px" viewBox="0 0 63.084 63.084" style="enable-background:new 0 0 63.084 63.084;"
+                                  xml:space="preserve">
+                               <g>
+                                 <g>
+                                   <path d="M55.876,0c-0.83,0-1.5,0.672-1.5,1.5v5.463L51.63,9.708C46.187,4.766,38.958,1.75,31.043,1.75
+                                     c-16.91,0-30.667,13.757-30.667,30.667s13.756,30.667,30.666,30.667S61.71,49.327,61.71,32.417c0-7.916-3.018-15.141-7.959-20.588
+                                     l2.746-2.745h4.711c0.83,0,1.5-0.672,1.5-1.5s-0.67-1.5-1.5-1.5h-3.832V1.5C57.376,0.672,56.704,0,55.876,0z M58.708,32.417
+                                     c0,15.256-12.41,27.667-27.667,27.667c-15.255,0-27.667-12.411-27.667-27.667S15.785,4.75,31.041,4.75
+                                     c7.089,0,13.563,2.683,18.464,7.083l-5.793,5.792c-3.412-2.927-7.834-4.708-12.671-4.708c-10.752,0-19.5,8.748-19.5,19.5
+                                     s8.748,19.5,19.5,19.5c10.753,0,19.501-8.748,19.501-19.5c0-4.837-1.781-9.259-4.709-12.671l5.793-5.792
+                                     C56.024,18.855,58.708,25.328,58.708,32.417z M35.208,32.417c0,2.298-1.869,4.167-4.167,4.167s-4.167-1.869-4.167-4.167
+                                     s1.869-4.167,4.167-4.167c0.601,0,1.169,0.133,1.685,0.362l-2.744,2.744c-0.586,0.586-0.586,1.537,0,2.123
+                                     c0.293,0.293,0.677,0.438,1.061,0.438c0.385,0,0.769-0.146,1.062-0.438l2.744-2.746C35.075,31.249,35.208,31.816,35.208,32.417z
+                                      M34.931,26.406c-1.121-0.729-2.455-1.156-3.89-1.156c-3.952,0-7.167,3.215-7.167,7.167s3.215,7.167,7.167,7.167
+                                     s7.167-3.215,7.167-7.167c0-1.434-0.428-2.768-1.156-3.89l6.662-6.661c2.389,2.863,3.828,6.541,3.828,10.55
+                                     c0,9.1-7.4,16.5-16.5,16.5c-9.098,0-16.5-7.4-16.5-16.5c0-9.098,7.402-16.5,16.5-16.5c4.01,0,7.688,1.441,10.551,3.828
+                                     L34.931,26.406z"/>
+                                 </g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               </svg></span>70</p>
+                            </a>
+                              
+                          </div>
+                          <div class="card-footer">
+                              <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                      Subscription
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                        Documentation
+                                    </a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4">
+                      <div class="card card_user">
+                          <div class="card-header">
+                            <form class="d-flex align-items-center justify-content-between">
+                                <div>
+                                  <label class="container_checkbox">
+                                      <input type="checkbox" class="input_hide">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div>
+                                  <div class="delete_icon_con">
+                                      <span class="delete_icon">
+                                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                        </span>
+                                  </div>
+                                  
+                                </div>
+                            </form>
+
+                          </div>
+                          <div class="card-body">
+                            <a href="#" class="d-block">
+                                <div class="user_api_icon">                                  
+                                    <svg id="Capa_1" enable-background="new 0 0 482.239 482.239" height="50" viewBox="0 0 482.239 482.239" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m241.119 206.674c37.995 0 68.891-30.897 68.891-68.891 0-37.995-30.897-68.891-68.891-68.891-37.995 0-68.891 30.897-68.891 68.891s30.897 68.891 68.891 68.891zm0-103.337c18.989 0 34.446 15.457 34.446 34.446s-15.457 34.446-34.446 34.446-34.446-15.457-34.446-34.446 15.458-34.446 34.446-34.446z"/><path d="m34.446 34.446h103.337v-34.446h-120.56c-9.52 0-17.223 7.703-17.223 17.223v120.56h34.446z"/><path d="m465.016 0h-120.56v34.446h103.337v103.337h34.446v-120.56c0-9.52-7.703-17.223-17.223-17.223z"/><path d="m447.793 447.793h-103.337v34.446h120.56c9.52 0 17.223-7.703 17.223-17.223v-103.337h-34.446z"/><path d="m34.446 344.456h-34.446v120.56c0 9.52 7.703 17.223 17.223 17.223h120.56v-34.446h-103.337z"/><path d="m135.966 262.026c-19.813 8.208-32.629 27.096-32.629 48.153v68.723h275.565v-68.723c0-21.058-12.816-39.946-32.629-48.153-66.84-27.752-143.468-27.752-210.307 0zm208.49 48.153v34.277h-206.674v-34.277c0-7.064 4.457-13.472 11.37-16.331 58.464-24.253 125.471-24.253 183.934 0 6.913 2.859 11.37 9.267 11.37 16.331z"/></svg>
+                                </div>
+                                <p class="user_api user_api_key">7000ATg4549647805</p>
+                                <p class="user_api user_api_hits"> <span class="mr-1"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                  width="30px" height="30px" viewBox="0 0 63.084 63.084" style="enable-background:new 0 0 63.084 63.084;"
+                                  xml:space="preserve">
+                               <g>
+                                 <g>
+                                   <path d="M55.876,0c-0.83,0-1.5,0.672-1.5,1.5v5.463L51.63,9.708C46.187,4.766,38.958,1.75,31.043,1.75
+                                     c-16.91,0-30.667,13.757-30.667,30.667s13.756,30.667,30.666,30.667S61.71,49.327,61.71,32.417c0-7.916-3.018-15.141-7.959-20.588
+                                     l2.746-2.745h4.711c0.83,0,1.5-0.672,1.5-1.5s-0.67-1.5-1.5-1.5h-3.832V1.5C57.376,0.672,56.704,0,55.876,0z M58.708,32.417
+                                     c0,15.256-12.41,27.667-27.667,27.667c-15.255,0-27.667-12.411-27.667-27.667S15.785,4.75,31.041,4.75
+                                     c7.089,0,13.563,2.683,18.464,7.083l-5.793,5.792c-3.412-2.927-7.834-4.708-12.671-4.708c-10.752,0-19.5,8.748-19.5,19.5
+                                     s8.748,19.5,19.5,19.5c10.753,0,19.501-8.748,19.501-19.5c0-4.837-1.781-9.259-4.709-12.671l5.793-5.792
+                                     C56.024,18.855,58.708,25.328,58.708,32.417z M35.208,32.417c0,2.298-1.869,4.167-4.167,4.167s-4.167-1.869-4.167-4.167
+                                     s1.869-4.167,4.167-4.167c0.601,0,1.169,0.133,1.685,0.362l-2.744,2.744c-0.586,0.586-0.586,1.537,0,2.123
+                                     c0.293,0.293,0.677,0.438,1.061,0.438c0.385,0,0.769-0.146,1.062-0.438l2.744-2.746C35.075,31.249,35.208,31.816,35.208,32.417z
+                                      M34.931,26.406c-1.121-0.729-2.455-1.156-3.89-1.156c-3.952,0-7.167,3.215-7.167,7.167s3.215,7.167,7.167,7.167
+                                     s7.167-3.215,7.167-7.167c0-1.434-0.428-2.768-1.156-3.89l6.662-6.661c2.389,2.863,3.828,6.541,3.828,10.55
+                                     c0,9.1-7.4,16.5-16.5,16.5c-9.098,0-16.5-7.4-16.5-16.5c0-9.098,7.402-16.5,16.5-16.5c4.01,0,7.688,1.441,10.551,3.828
+                                     L34.931,26.406z"/>
+                                 </g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               <g>
+                               </g>
+                               </svg></span>70</p>
+                            </a>
+                              
+                          </div>
+                          <div class="card-footer">
+                              <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                      Subscription
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="#" class="btn btn-content font_size_12">
+                                        Documentation
+                                    </a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        <a href="https://www.aptagrim.com/"  style="color: #fff">Aptagrim</a> &copy; <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script> . All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="static/lib/jquery/jquery.min.js"></script>
+  <script src="static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/lib/easing/easing.min.js"></script>
+  <script src="static/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="static/lib/wow/wow.min.js"></script>
+  <script src="static/lib/waypoints/waypoints.min.js"></script>
+  <script src="static/lib/counterup/counterup.min.js"></script>
+  <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="static/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="static/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="static/js/main.js"></script>
+  
+  <script type="text/javascript">
+    function toggleIcon(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find(".more-less")
+            .toggleClass('fa-plus fa-minus');
+    }
+    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+    $('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
+<script>
+  $('input[type="checkbox"]'). click(function(){
+    if($(this). prop("checked") == true){
+      $(this).parent().parent().parent().find(".delete_icon").show();
+      $(this).parent().parent().parent().parent().parent().css('border-color','#007bff');
+    }
+    else if($(this). prop("checked") == false){  
+      $(this).parent().parent().parent().find(".delete_icon").hide();
+      $(this).parent().parent().parent().parent().parent().css('border-color','#fff');
+    }
+  });
+</script>
+</body>
+</html>

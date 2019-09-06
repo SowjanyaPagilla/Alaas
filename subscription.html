@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alaas</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/line-icons.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto logo_a"><img src="static/img/logo-normal.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="index.html#intro">Dashboard</a></li>
+          <li><a href="documentation.html">Documentation</a></li>
+          <li class="active"><a href="subscription.html">Subscription</a></li>
+          <li class="drop-down">
+            <a href="#">Support</a>
+              <ul>
+                <li class="inner-child">
+                    <a href="#" title="">FAQ</a>
+                </li>
+                <li class="inner-child">
+                    <a href="#" title="">Create Tickets</a>
+                </li>
+                <li class="inner-child">
+                    <a href="#" title="">Manage Tickets</a>
+                </li>
+            </ul>
+          </li>
+          <li class="drop-down drop-down-right">
+              <a href="#" class="avatar_img_con pt-0"><img src="static/img/avatar.png" class="avatar_img" /></a>
+                <ul>
+                  <li>
+                      <a href="view_profile.html" title="">Edit Profile</a>
+                  </li>
+                  <li >
+                      <a href="changepassword.html" title="">Change Password</a>
+                  </li>
+                  <li >
+                      <a href="#" title="">Logout</a>
+                  </li>
+              </ul>
+            </li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+     
+
+  <main id="main" class="section-bg margin_top_80">
+          <section id="user_dashboard_card" class="h-100 pb-5 pt-5">
+            <div class="container h-100">
+              <div class="row h-100 justify-content-center">
+                  <div class="col-sm-12 col-md-12 col-lg-11">
+                    <h3>Subscription</h3>
+                      <ul class="nav nav-pills" id="your_subscription_pills_tabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active m-0" id="your_subscription_home-tab" data-toggle="pill" href="#your_subscription_home" role="tab" aria-controls="your_subscription_home" aria-selected="true">Your Subscription</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="your_subscription_profile-tab" data-toggle="pill" href="#your_subscription_profile" role="tab" aria-controls="your_subscription_profile" aria-selected="false">Subscription History</a>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="your_subscription_tabcontent">
+                            <div class="tab-pane fade show active" id="your_subscription_home" role="tabpanel" aria-labelledby="your_subscription_home-tab">
+                                <div class="p-4">
+                                    <table class="table your-subscription" id="your_subscription_home_table">
+                                        <thead>
+                                          <th width="50px">Sno</th>
+                                          <th>Plan</th>
+                                          <th>Start Date</th>
+                                          <th>End Date</th>
+                                          <th>Action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                1
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                              <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                2
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                3
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                4
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                5
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                6
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                7
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                            <td>
+                                                <a href="#" class="btn common-btn btn-content btn-renew">Renew</a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                                
+                            </div>
+                            <div class="tab-pane fade" id="your_subscription_profile" role="tabpanel" aria-labelledby="your_subscription_profile-tab">
+                              <div class="p-4">
+                                  <table class="table history-subscription" id="your_subscription_profile_table">
+                                      <thead>
+                                          <th width="50px"></th>
+                                          <th width="50px">Sno</th>
+                                          <th>Plan</th>
+                                          <th>Start Date</th>
+                                          <th>End Date</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                1
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                2
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                3
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                4
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                5
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                6
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                          <tr>
+                                            <td class="p-0">
+                                              <img src="static/img/dots.png" class="dots_img" style="display: block;">
+                                            </td>
+                                            <td class="p-0">
+                                              <div class="sno">
+                                                7
+                                              </div>
+                                            </td>
+                                            <td>plan title</td>
+                                            <td>25-10-2018</td>
+                                            <td>25-10-2019</td>
+                                          </tr>
+                                        </tbody>                              
+                                  </table>
+                              </div>
+                                
+                            </div>                           
+                          </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="copyright">
+                <a href="https://www.aptagrim.com/"  style="color: #fff">Aptagrim</a> &copy; <script type="text/javascript">
+                  document.write(new Date().getFullYear());
+                </script> . All Rights Reserved
+              </div>
+  
+              <div>
+                  <ul class="footer-social">
+                      <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                      <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                      <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                      <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                    </ul>
+              </div>
+  
+        </div>
+        
+      </div>
+    </footer><!-- #footer -->
+
+    <div class="modal fade" id="renew-subscription" role="dialog">
+      <div class="modal-dialog modal-lg" style="max-width: 95%;">
+        <div class="modal-content">
+          <div class="modal-body" style="background: #f6fbfd">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <section id="why-us" class="">
+                <div class="container">
+                  <header class="section-header">
+                    <h3>Choose a Plan</h3>
+                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                  </header>
+          
+                  <div class="row row-eq-height justify-content-center">
+          
+                    <div class="col-lg-3 mb-4">
+                      <div class="card ">
+                          <i class="fa fa-diamond"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Corporis dolorem</h5>
+                          <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+                          <a href="#" class="readmore">Read more </a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-3 mb-4">
+                      <div class="card ">
+                          <i class="fa fa-language"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Voluptates dolores</h5>
+                          <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
+                          <a href="#" class="readmore">Read more </a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-3 mb-4">
+                      <div class="card ">
+                          <i class="fa fa-object-group"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Eum ut aspernatur</h5>
+                          <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+                          <a href="#" class="readmore">Read more </a>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-3 mb-4">
+                      <div class="card ">
+                          <i class="fa fa-language"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Voluptates dolores</h5>
+                          <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
+                          <a href="#" class="readmore">Read more </a>
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+          
+                </div>
+              </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="static/lib/jquery/jquery.min.js"></script>
+  <script src="static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/lib/easing/easing.min.js"></script>
+  <script src="static/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="static/lib/wow/wow.min.js"></script>
+  <script src="static/lib/waypoints/waypoints.min.js"></script>
+  <script src="static/lib/counterup/counterup.min.js"></script>
+  <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="static/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="static/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="static/js/main.js"></script>
+  
+  <script type="text/javascript">
+    function toggleIcon(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find(".more-less")
+            .toggleClass('fa-plus fa-minus');
+    }
+    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+    $('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
+<script>
+  $('input[type="checkbox"]'). click(function(){
+    if($(this). prop("checked") == true){
+      $(this).parent().parent().parent().find(".delete_icon").show();
+      $(this).parent().parent().parent().parent().parent().css('border-color','#007bff');
+    }
+    else if($(this). prop("checked") == false){  
+      $(this).parent().parent().parent().find(".delete_icon").hide();
+      $(this).parent().parent().parent().parent().parent().css('border-color','#fff');
+    }
+  });
+</script>
+
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script>
+  
+
+  $(document).ready(function() {
+    $('#your_subscription_home_table').DataTable({
+      "searching": false,
+      "bLengthChange": false,
+      "bInfo": false, 
+      "ordering": false,
+      "pageLength": 5
+    });
+    //  $("#your_subscription_home_pagination").append($(".dataTables_paginate"))
+
+    
+
+    $('#your_subscription_profile_table').DataTable({
+      "searching": false,
+      "bLengthChange": false,
+      "bInfo": false,
+      "ordering": false,
+      "pageLength": 5
+    });
+    // $("#your_subscription_profile_pagination").append($(".dataTables_paginate"))
+} );
+</script>
+</body>
+</html>
